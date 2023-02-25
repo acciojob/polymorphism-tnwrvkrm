@@ -4,14 +4,14 @@ public class Main {
 
 
     public static class Product {
-        public int product(int x, int y) {
-            return 1;
+        int product(int x, int y) {
+            return x+y;
         }
-        public int product(int x, int y, int z) {
-            return 2;
+        int product(int x, int y, int z) {
+            return x+y+z;
         }
-        public double product(double x, double y) {
-            return 3.0;
+        double product(double x, double y) {
+            return x+y;
         }
     }
 
@@ -22,6 +22,5 @@ public class Main {
         p.product(5.0,6.1);
         //System.out.println(a+"-"+b+"-"+c);
     }
-
 
 }
